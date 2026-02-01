@@ -1,136 +1,70 @@
-![Plant Seller Logo](https://res.cloudinary.com/dcd6y2awx/image/upload/v1709673317/PlantSeller/UI%20Images/plant_seller_bg_none.png)
+# Getting Started with Create React App
 
----
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Project Name:** Plant Seller
+## Available Scripts
 
-**Description:** Welcome to Plant Seller: Where Green Dreams Come True!
+In the project directory, you can run:
 
-Explore our lush collection of plants to elevate your living space. From vibrant succulents to elegant ferns, find the perfect green companions to breathe life into your home.
+### `npm start`
 
-Let's grow together!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Folder Structure:**
+### `npm test`
 
-```
-plant-seller/
-├── frontend/
-│   ├── (frontend files and directories)
-├── backend/
-│   ├── (backend files and directories)
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Frontend:**
-- Framework: React.js
-- Port: 3000 (localhost)
+### `npm run build`
 
-**Backend:**
-- Framework: Node.js, Express.js
-- Database: MongoDB
-- Port: 8000 (localhost)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Features:**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. **User Account:**
-   - Login
-   - Signup
-   - Profile
-   - Address
-   - Cart
-   - Order
-   - Buy Plant
-   - And more...
+### `npm run eject`
 
-2. **Nursery:**
-   - All features of a user
-   - Nursery Profile
-   - Add Plant
-   - Edit Plants
-   - Customize Nursery Store
-   - And more...
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-3. **Admin:**
-   - All access of the website
-   - Manage users
-   - Manage nurseries
-   - Manage plants
-   - And more...
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Technologies:**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- MERN Stack (MongoDB, Express.js, React.js, Node.js)
-- Stripe.js (Payment Integration)
-- Chart.js (Data Visualization)
-- Bootstrap (Frontend Framework)
-- Sass (CSS Preprocessor)
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**Getting Started:**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. Clone the repository:
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-```
-git clone https://github.com/piyushraj2340/Plant-Selling-Website.git
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-2. Install dependencies:
+### Making a Progressive Web App
 
-```
-cd plant-seller/frontend
-npm install
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-cd ../backend
-npm install
-```
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-3. Set up environment variables:
+### Deployment
 
-   - Create a `.env` file in the backend directory.
-   - Define environment variables such as `PORT`, `MONGODB_URI`, `STRIPE_SECRET_KEY`, etc.
-   - For a complete reference, please follow [Issue #2](https://github.com/piyushraj2340/Plant-Selling-Website/issues/2#issuecomment-2414624938).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-4. Run the frontend development server:
+### `npm run build` fails to minify
 
-
-
-```
-cd ../frontend
-npm start
-```
-
-
-5. Run the backend development server:
-
-```
-cd ../backend
-npm start
-```
----
-
-6. Open your browser and visit `http://localhost:3000` to view the application.
-
----
-
-**Contributing:**
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs, feature requests, or suggestions.
-
----
-
-**Contact:**
-
-For any inquiries or support, please contact [Piyush Raj](piyushraj2340@gmail.com).
-
----
-
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
